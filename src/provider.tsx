@@ -15,7 +15,7 @@ function generateNamespaces(namespaces: string[], options: Pick<ProviderProps, "
   return namespaces.reduce(
     (acc, namespace) => ({
       ...acc,
-      [namespace]: io(getURLOrigin(options.uri), options.options),
+      [namespace]: io(`${getURLOrigin(options.uri)}/${namespace}`, options.options),
     }),
     {},
   );
