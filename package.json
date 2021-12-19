@@ -1,6 +1,6 @@
 {
   "name": "@casper124578/use-socket.io",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Use Socket.io-client with hooks",
   "main": "dist/index.js",
   "exports": {
@@ -29,17 +29,17 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "react": "^17.0.2",
-    "socket.io-client": "^4.2.0"
+    "react": "17.0.2",
+    "socket.io-client": "4.4.0"
   },
   "devDependencies": {
-    "@casper124578/eslint-config": "^1.0.0",
-    "@casper124578/eslint-config-react": "^0.1.2",
-    "@types/react": "^17.0.27",
-    "@typescript-eslint/eslint-plugin": "^4.33.0",
-    "eslint": "^7.32.0",
-    "prettier": "^2.4.1",
-    "typescript": "^4.4.3"
+    "@casper124578/eslint-config": "^2.3.1",
+    "@casper124578/eslint-config-react": "^2.2.0",
+    "@types/react": "^17.0.37",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "eslint": "^8.5.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
   },
   "peerDependencies": {
     "react": "17.0.2",
