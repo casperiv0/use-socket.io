@@ -12,5 +12,8 @@
     "ecmaFeatures": {
       "jsx": true
     }
+  },
+  "rules": {
+    "no-duplicate-imports": "off"
   }
 }
