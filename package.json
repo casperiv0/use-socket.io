@@ -1,11 +1,11 @@
 {
   "name": "@casper124578/use-socket.io",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "Use Socket.io-client with hooks",
   "main": "dist/index.js",
   "exports": {
     ".": "./dist/index.js",
-    "./*": "./*"
+    "./*": "./dist/*"
   },
   "files": [
     "dist"
@@ -30,7 +30,8 @@
   "license": "MIT",
   "dependencies": {
     "react": "17.0.2",
-    "socket.io-client": "4.4.1"
+    "socket.io-client": "4.2.0",
+    "tslib": "^2.3.1"
   },
   "devDependencies": {
     "@casper124578/eslint-config": "^2.3.2",
