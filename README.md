@@ -10,6 +10,9 @@ npm install @casper124578/use-socket.io
 
 # Yarn
 yarn add @casper124578/use-socket.io
+
+# pnpm
+pnpm install @casper124578/use-socket.io
 ```
 
 ## Usage

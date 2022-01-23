@@ -1,11 +1,16 @@
 {
   "name": "@casper124578/use-socket.io",
-  "version": "3.0.0",
+  "version": "3.1.0-beta.1",
   "description": "Use Socket.io-client with hooks",
-  "main": "dist/index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/Dev-CasperTheGhost/use-socket.io#readme",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "exports": {
-    ".": "./dist/index.js",
-    "./*": "./dist/*"
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.mjs"
   },
   "files": [
     "dist"
@@ -15,10 +20,10 @@
   },
   "author": {
     "name": "Dev-CasperTheGhost",
-    "url": "https://caspertheghost.me"
+    "url": "https://www.caspertheghost.me"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "unbuild",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,css,json}\" --ignore-path .gitignore",
     "lint": "eslint . --ext .ts,.js,.tsx,.jsx"
   },
@@ -27,23 +32,30 @@
     "use socket.io",
     "react-hooks"
   ],
-  "license": "MIT",
   "dependencies": {
     "react": "17.0.2",
-    "socket.io-client": "4.2.0",
+    "socket.io-client": "4.4.1",
     "tslib": "^2.3.1"
   },
   "devDependencies": {
     "@casper124578/eslint-config": "^2.3.2",
     "@casper124578/eslint-config-react": "^2.2.1",
     "@types/react": "^17.0.38",
-    "@typescript-eslint/eslint-plugin": "^5.9.1",
-    "eslint": "^8.6.0",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "eslint": "^8.7.0",
     "prettier": "^2.5.1",
-    "typescript": "^4.5.4"
+    "typescript": "^4.5.5",
+    "unbuild": "^0.6.8"
   },
   "peerDependencies": {
-    "react": "17.0.2",
-    "socket.io-client": "4.2.0"
+    "react": ">=17",
+    "socket.io-client": ">=4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dev-CasperTheGhost/pastebin-api"
+  },
+  "bugs": {
+    "url": "https://github.com/Dev-CasperTheGhost/pastebin-api/issues"
   }
 }
