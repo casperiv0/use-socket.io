@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.1.0
+
+- Support ESM output.
+- Bump dependencies
+- Add simple documentation
+
 ## 3.0.0
 
 - Add changelog
