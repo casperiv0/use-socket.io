@@ -25,12 +25,15 @@
   "scripts": {
     "build": "unbuild",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,css,json}\" --ignore-path .gitignore",
-    "lint": "eslint . --ext .ts,.js,.tsx,.jsx"
+    "lint": "eslint . --ext .ts,.js,.tsx,.jsx",
+    "test-tsc": "tsc --noEmit"
   },
   "keywords": [
     "socket.io",
     "use socket.io",
-    "react-hooks"
+    "react-hooks",
+    "socket hooks",
+    "sockets"
   ],
   "dependencies": {
     "react": "17.0.2",
