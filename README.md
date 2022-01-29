@@ -30,3 +30,7 @@ export default function App() {
   );
 }
 ```
+
+## Documentation
+
+[You can view documentation here](https://github.com/Dev-CasperTheGhost/use-socket.io/blob/main/docs/README.md)

@@ -1,6 +1,6 @@
 {
   "name": "@casper124578/use-socket.io",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "Use Socket.io-client with hooks",
   "license": "MIT",
   "homepage": "https://github.com/Dev-CasperTheGhost/use-socket.io#readme",
@@ -56,9 +56,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Dev-CasperTheGhost/pastebin-api"
+    "url": "https://github.com/Dev-CasperTheGhost/use-socket.io"
   },
   "bugs": {
-    "url": "https://github.com/Dev-CasperTheGhost/pastebin-api/issues"
+    "url": "https://github.com/Dev-CasperTheGhost/use-socket.io/issues"
   }
 }
