@@ -1,6 +1,5 @@
 import * as React from "react";
-import type { ManagerOptions, SocketOptions } from "socket.io-client";
-import { io } from "socket.io-client";
+import { type ManagerOptions, type SocketOptions, io } from "socket.io-client";
 import { SocketContext } from "./context";
 
 interface ProviderProps {

@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.1.2
+
+- Bump dependencies
+- Refactor code
+
 ## 3.1.0
 
 - Support ESM output.

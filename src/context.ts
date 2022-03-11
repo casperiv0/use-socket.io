@@ -10,7 +10,7 @@ export const SocketContext = React.createContext<TSocketContext | undefined>(und
 export function useSocket() {
   const context = React.useContext(SocketContext);
   if (typeof context === "undefined") {
-    throw new Error("`useSocket` must be used within a `SocketProvider`");
+    throw new TypeError("`useSocket` must be used within a `SocketProvider`");
   }
 
   return context.socket;

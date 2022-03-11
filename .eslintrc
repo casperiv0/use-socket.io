@@ -11,9 +11,7 @@
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
-    }
-  },
-  "rules": {
-    "no-duplicate-imports": "off"
+    },
+    "project": "./tsconfig.json"
   }
 }
