@@ -19,17 +19,17 @@ pnpm install @casper124578/use-socket.io
 
 ```tsx
 // src/App.tsx
-
 import { SocketProvider } from "@casper124578/use-socket.io";
 
 export default function App() {
   return (
-    <SocketProvider uri="http://localhost:3030" options={{}}>
-      {/* my app here */}
+    <SocketProvider uri="http://localhost:3030" options={{ /** ... */ }}>
+      <App />
     </SocketProvider>
   );
 }
 ```
+
 
 ## Documentation
 
