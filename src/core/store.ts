@@ -6,15 +6,15 @@ export interface SocketOptions extends _SocketOptions, ManagerOptions {
 }
 
 interface SocketStore {
-  socket: Socket;
-  setSocket(socket: Socket): void;
+  socket: Socket | null;
+  setSocket(socket: Socket | null): void;
 
   options: SocketOptions;
   setOptions(options: Partial<SocketOptions>): void;
 }
 
 export const useSocketStore = create<SocketStore>((set, get) => ({
-  socket: {} as Socket,
+  socket: null,
   setSocket: (socket) => set({ socket }),
 
   options: {} as SocketOptions,

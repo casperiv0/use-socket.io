@@ -26,7 +26,7 @@ export const useConnect = () => {
     }
 
     store.socket.disconnect();
-    store.setSocket(null!);
+    store.setSocket(null);
   };
 
   return {

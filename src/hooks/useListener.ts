@@ -27,4 +27,6 @@ export function useListener<Data = any>(
       socket.off(eventName, handler);
     };
   }, [socket, eventName, checkHasListeners, callback, ...deps]); // eslint-disable-line
+
+  return () => socket?.off(eventName);
 }
