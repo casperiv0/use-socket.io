@@ -1,5 +1,5 @@
 import * as React from "react";
-import { SocketOptions, useSocketStore } from "./store";
+import type { SocketOptions } from "./store";
 import { useConnect } from "../hooks/useConnect";
 
 interface ProviderProps {
@@ -9,22 +9,16 @@ interface ProviderProps {
 }
 
 export function SocketProvider({ uri, options, children }: ProviderProps) {
-  const store = useSocketStore();
   const { connect, disconnect } = useConnect();
 
   React.useEffect(() => {
-    store.setOptions({ url: uri, ...options });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [uri, options]);
-
-  React.useEffect(() => {
-    connect(uri);
+    connect(uri, options);
 
     return () => {
       disconnect();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [uri]);
+  }, [uri, options]);
 
   return <>{children}</>;
 }

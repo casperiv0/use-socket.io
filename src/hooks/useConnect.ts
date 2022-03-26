@@ -1,20 +1,18 @@
 import { io } from "socket.io-client";
-import { useSocketStore } from "../core/store";
+import { SocketOptions, useSocketStore } from "../core/store";
 
 export const useConnect = () => {
   const store = useSocketStore((state) => ({
     socket: state.socket,
-    options: state.options,
     setSocket: state.setSocket,
-    setOptions: state.setOptions,
   }));
 
-  const connect = (url: string) => {
+  const connect = (url: string, options?: Partial<SocketOptions>) => {
     if (store.socket) {
       return;
     }
 
-    const socket = io(url, store.options);
+    const socket = io(url, options);
     store.setSocket(socket);
   };
 
