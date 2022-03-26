@@ -18,6 +18,8 @@ export default function App() {
 ### `useSocket`
 
 ```tsx
+import { useSocket } from "@casper124578/use-socket.io";
+
 export function MyComponent() {
   /**
    * access to all `socket` properties
@@ -32,6 +34,8 @@ export function MyComponent() {
 ### `useListener`
 
 ```tsx
+import { useListener } from "@casper124578/use-socket.io";
+
 export function MyComponent() {
   useListener("myEventName", (data) => {
     console.log(data)
