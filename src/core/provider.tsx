@@ -18,13 +18,13 @@ export function SocketProvider({ uri, options, children }: ProviderProps) {
   }, [uri, options]);
 
   React.useEffect(() => {
-    connect();
+    connect(uri);
 
     return () => {
       disconnect();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [store.options]);
+  }, [uri]);
 
   return <>{children}</>;
 }

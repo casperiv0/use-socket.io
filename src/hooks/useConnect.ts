@@ -9,9 +9,7 @@ export const useConnect = () => {
     setOptions: state.setOptions,
   }));
 
-  const connect = () => {
-    const url = store.options.url;
-
+  const connect = (url: string) => {
     if (store.socket) {
       return;
     }
