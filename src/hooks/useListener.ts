@@ -1,5 +1,5 @@
 import * as React from "react";
-import { useSocket } from "./context";
+import { useSocketStore } from "../core/store";
 
 interface Options {
   eventName: string;
@@ -11,7 +11,7 @@ export function useListener<Data = any>(
   callback: (data: Data) => void,
   deps: any[] = [],
 ) {
-  const socket = useSocket();
+  const socket = useSocketStore((s) => s.socket);
   const eventName = typeof options === "string" ? options : options.eventName;
   const checkHasListeners = typeof options === "object" ? options.checkHasListeners : false;
 
@@ -27,4 +27,6 @@ export function useListener<Data = any>(
       socket.off(eventName, handler);
     };
   }, [socket, eventName, checkHasListeners, callback, ...deps]); // eslint-disable-line
+
+  return () => socket?.off(eventName);
 }
