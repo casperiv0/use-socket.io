@@ -1,5 +1,14 @@
 # Changelog
 
+## 4.1.0
+
+- Support React 18
+
+## 4.0.0
+
+- 🚀 Rewrite store to zustand
+- Bump dependencies
+
 ## 3.1.2
 
 - Bump dependencies

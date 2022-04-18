@@ -20,5 +20,6 @@ export function SocketProvider({ uri, options, children }: ProviderProps) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [uri, options]);
 
+  // eslint-disable-next-line react/jsx-no-useless-fragment
   return <>{children}</>;
 }
