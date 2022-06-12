@@ -9,7 +9,7 @@ interface Options {
 export function useListener<Data = any>(
   options: string | Options,
   callback: (data: Data) => void,
-  deps: any[] = [],
+  deps: React.DependencyList = [],
 ) {
   const socket = useSocketStore((s) => s.socket);
   const eventName = typeof options === "string" ? options : options.eventName;

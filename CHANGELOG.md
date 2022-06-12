@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.1.1
+
+- Bump dependencies
+- Use correct type for React dependencies array
+
 ## 4.1.0
 
 - Support React 18
