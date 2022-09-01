@@ -1,6 +1,6 @@
 {
   "name": "@casper124578/use-socket.io",
-  "version": "4.1.2",
+  "version": "4.1.3",
   "description": "Use Socket.io-client with hooks",
   "license": "MIT",
   "homepage": "https://github.com/Dev-CasperTheGhost/use-socket.io#readme",
