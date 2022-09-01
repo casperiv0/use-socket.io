@@ -5,4 +5,5 @@ export default {
     emitCJS: true,
     cjsBridge: true,
   },
+  failOnWarn: false,
 };
