@@ -1,4 +1,4 @@
-import create from "zustand";
+import { create } from "zustand";
 import type { ManagerOptions, Socket, SocketOptions as _SocketOptions } from "socket.io-client";
 
 export interface SocketOptions extends _SocketOptions, ManagerOptions {
