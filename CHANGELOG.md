@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.0.0
+
+- **BREAKING:** Require node v16
+- **BREAKING:** Drop CJS support
+- Bump dependencies
+
 ## 4.1.3
 
 - Bump dependencies
