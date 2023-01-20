@@ -12,7 +12,7 @@ export const useConnect = () => {
   );
 
   const connect = (url: string, options?: Partial<SocketOptions>) => {
-    if (store.socket) {
+    if (store.socket?.connected) {
       return;
     }
 

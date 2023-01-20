@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.0.1
+
+- fix: correctly check for `socket` nullable
+
 ## 5.0.0
 
 - **BREAKING:** Require node v16
