@@ -8,7 +8,14 @@ import { SocketProvider } from "@casper124578/use-socket.io";
 
 export default function App() {
   return (
-    <SocketProvider uri="http://localhost:3030" options={{ /** ... */ }}>
+    <SocketProvider
+      uri="http://localhost:3030"
+      options={
+        {
+          /** ... */
+        }
+      }
+    >
       <App />
     </SocketProvider>
   );
