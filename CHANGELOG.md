@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.1.0
+
+- Update dezps
+- Use `pnpm`
+- Update internal types
+
 ## 5.0.1
 
 - fix: correctly check for `socket` nullable
