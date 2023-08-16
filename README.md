@@ -6,20 +6,20 @@ Simple package to use Socket.io with React hooks.
 
 ```bash
 # npm
-npm install @casper124578/use-socket.io
+npm install @casperiv/use-socket.io
 
 # Yarn
-yarn add @casper124578/use-socket.io
+yarn add @casperiv/use-socket.io
 
 # pnpm
-pnpm install @casper124578/use-socket.io
+pnpm install @casperiv/use-socket.io
 ```
 
 ## Usage
 
 ```tsx
 // src/App.tsx
-import { SocketProvider } from "@casper124578/use-socket.io";
+import { SocketProvider } from "@casperiv/use-socket.io";
 
 export default function App() {
   return (

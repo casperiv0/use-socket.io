@@ -4,7 +4,7 @@
 
 ```tsx
 // src/App.tsx
-import { SocketProvider } from "@casper124578/use-socket.io";
+import { SocketProvider } from "@casperiv/use-socket.io";
 
 export default function App() {
   return (
@@ -25,7 +25,7 @@ export default function App() {
 ### `useSocket`
 
 ```tsx
-import { useSocket } from "@casper124578/use-socket.io";
+import { useSocket } from "@casperiv/use-socket.io";
 
 export function MyComponent() {
   /**
@@ -41,7 +41,7 @@ export function MyComponent() {
 ### `useListener`
 
 ```tsx
-import { useListener } from "@casper124578/use-socket.io";
+import { useListener } from "@casperiv/use-socket.io";
 
 export function MyComponent() {
   useListener("myEventName", (data) => {

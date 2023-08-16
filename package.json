@@ -1,6 +1,6 @@
 {
-  "name": "@casper124578/use-socket.io",
-  "version": "5.1.0",
+  "name": "@casperiv/use-socket.io",
+  "version": "6.0.0",
   "description": "Use Socket.io-client with hooks",
   "license": "MIT",
   "homepage": "https://github.com/Dev-CasperTheGhost/use-socket.io#readme",
@@ -34,18 +34,18 @@
   ],
   "dependencies": {
     "react": "18.2.0",
-    "socket.io-client": "4.6.1",
-    "tsup": "^6.7.0",
-    "zustand": "^4.3.7"
+    "socket.io-client": ">=4.7",
+    "tsup": "^7.2.0",
+    "zustand": "^4.4.1"
   },
   "devDependencies": {
-    "@casper124578/eslint-config": "^6.0.0",
-    "@casper124578/eslint-config-react": "^6.0.0",
-    "@types/react": "^18.2.0",
-    "eslint": "^8.39.0",
-    "prettier": "^2.8.8",
-    "socket.io": "^4.6.1",
-    "typescript": "^5.0.4"
+    "@casperiv/eslint-config": "^8.0.0",
+    "@casperiv/eslint-config-react": "^8.0.0",
+    "@types/react": "^18.2.20",
+    "eslint": "^8.47.0",
+    "prettier": "^3.0.2",
+    "socket.io": ">=4.7",
+    "typescript": "^5.1.6"
   },
   "peerDependencies": {
     "react": ">=18",
