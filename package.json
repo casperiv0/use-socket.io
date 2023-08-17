@@ -3,7 +3,7 @@
   "version": "6.0.0",
   "description": "Use Socket.io-client with hooks",
   "license": "MIT",
-  "homepage": "https://github.com/Dev-CasperTheGhost/use-socket.io#readme",
+  "homepage": "https://github.com/casperiv0/use-socket.io#readme",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -15,7 +15,7 @@
     "node": ">=16.0.0"
   },
   "author": {
-    "name": "Dev-CasperTheGhost",
+    "name": "casperiv0",
     "url": "https://www.casperiv.dev"
   },
   "scripts": {
@@ -54,9 +54,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Dev-CasperTheGhost/use-socket.io"
+    "url": "https://github.com/casperiv0/use-socket.io"
   },
   "bugs": {
-    "url": "https://github.com/Dev-CasperTheGhost/use-socket.io/issues"
+    "url": "https://github.com/casperiv0/use-socket.io/issues"
   }
 }

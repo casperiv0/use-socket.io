@@ -39,4 +39,4 @@ export default function App() {
 
 ## Documentation
 
-[You can view documentation here](https://github.com/Dev-CasperTheGhost/use-socket.io/blob/main/docs/README.md)
+[You can view documentation here](https://github.com/casperiv0/use-socket.io/blob/main/docs/README.md)
